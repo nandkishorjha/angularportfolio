@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+
+}
+.contact-img, .contact-form{width:50%;}
+.contact-img{
+    display: flex;
+    align-items: center;
+}
+.contact-img img{width:100%;height:auto;}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.form-group input{
+    border: 1px solid rgb(148, 142, 142);
+    border-radius: 3px;
+    outline: none;
+    font-size: 16px;
+    padding: 5px;
+}
+.form-group label{
+    color:#ffffff;
+    font-size: 16px;
+    padding:5px 0px;
+    font-weight: 550;
+}
+textarea{
+    border: 1px solid rgb(148, 142, 142);
+    border-radius: 3px;
+    height: 80px;
+    outline: none;
+    font-size: 16px;
+    padding: 5px;
+}
+button{margin:10px 0px;}
+.mat-card{
+    box-shadow:0px 10px 20px #727070;
+    background:#7579e7;
+}

@@ -1,0 +1,124 @@
+.profile{
+    background:#4d50af;
+    border-bottom: 1px solid #fff;
+    padding-top: 20px;
+}
+.img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    border:1px solid lightblue;
+    margin:0px auto;
+    background-color:#9ab3f5 ;
+}
+.user {
+    text-align: center;
+    color:#fff;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+.user-profile{
+    display: flex;
+    margin-top: 20px;
+}
+.job, .language{
+    width:50%;
+}
+.job{margin-right: 20px;position:relative;}
+.job:after{
+    content: '';
+    background:red;
+    width:10px;
+    border-radius: 10px;
+    height: 100%;
+    top:0;
+    left:-20px;
+    position:absolute;
+}
+.language{
+    padding:20px;
+    box-shadow: 0px 0px 20px rgb(34, 33, 33);
+}
+.progress-1 p{
+    padding-top: 10px;
+}
+.one, .two, .three{
+    box-shadow: 0px 0px 20px rgb(34, 33, 33);
+    padding:10px;
+    border-radius: 6px;
+    margin-top: 10px;
+    position:relative;
+    z-index: 10;
+}
+.one::before{
+    content: '';
+    background:rgb(32, 131, 7);
+    width:20px;
+    border-radius: 10px;
+    height: 20px;
+    top:40%;
+    left:-25px;
+    position:absolute;
+    z-index: 1;
+}
+.one::after{
+    content: '';
+    border-right: 20px solid white;
+    border-top: 20px solid white;
+    border-bottom: 20px solid white;
+    border-left: 20px solid white;
+    transform: rotate(45deg);
+    top: 30%;
+    left: 4px;
+    position: absolute;
+    z-index: -1;
+}
+.two::before{
+    content: '';
+    background:rgb(255, 215, 36);
+    width:20px;
+    border-radius: 10px;
+    height: 20px;
+    top:40%;
+    left:-25px;
+    position:absolute;
+    z-index: 1;
+}
+.two::after{
+    content: '';
+    border-right: 20px solid white;
+    border-top: 20px solid white;
+    border-bottom: 20px solid white;
+    border-left: 20px solid white;
+    transform: rotate(45deg);
+    top: 30%;
+    left: 4px;
+    position: absolute;
+    z-index: -1;
+}
+.three::before{
+    content: '';
+    background:#4d50af;
+    width:20px;
+    border-radius: 10px;
+    height: 20px;
+    top:40%;
+    left:-25px;
+    position:absolute;
+    z-index: 1;
+}
+.three::after{
+    content: '';
+    border-right: 20px solid white;
+    border-top: 20px solid white;
+    border-bottom: 20px solid white;
+    border-left: 20px solid white;
+    transform: rotate(45deg);
+    top: 30%;
+    left: 4px;
+    position: absolute;
+    z-index: -1;
+}
+.exper h1{
+    font-weight: 600;
+}

@@ -1,0 +1,19 @@
+.example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .cont{padding:20px;}
+  mat-drawer{width:250px; background:#7579e7;}
+  mat-toolbar{background-color:#7579e7;}
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  .material-icons{cursor: pointer;}
+  .mat-toolbar span{
+    margin-right: 30px;
+    color:#fff;
+    font-size: 1.6rem;
+  }
