@@ -5,15 +5,13 @@
       padding:0px;
       background:green;
   }
-  .mat-card:hover{
-      transform: scaleY(0.5);
-  }
   button{
       border-radius: 0px;
       width: 100%;
   }
   .card-body{
       width:100%;
+      text-align: center;
   }
   .card-body img{
       width: 100%;
