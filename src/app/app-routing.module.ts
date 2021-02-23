@@ -10,7 +10,7 @@ import { ContactComponent } from './contact/contact.component';
 const routes: Routes = [
   {
     path: 'home',
-    component: HomeComponent 
+    component: HomeComponent
   },
   {
     path: 'services',
@@ -32,6 +32,7 @@ const routes: Routes = [
     path: 'about',
     component: AboutComponent
   },
+  {path:'', redirectTo: 'home', pathMatch: 'full'}
 ];
 
 @NgModule({
