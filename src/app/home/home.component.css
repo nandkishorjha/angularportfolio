@@ -1,0 +1,12 @@
+.container{
+  display:flex;
+  align-items: center;
+  height: 85vh;
+}
+.main, .sub{
+  width:50%;
+}
+.text h1{font-weight: bold;}
+.btn{background: red; outline: none; border:none;}
+.text p{line-height: 1.5rem; font-size: 18px;}
+.main img{border-radius: 10px;}
